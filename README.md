@@ -1,3 +1,11 @@
 # Power-Divider-ADS
 W-band Power Diver
-Power dividers and directional couplers are passive microwave components used for powerdivision or power combining, as illustrated in Figure 7.1. In power division, an input signal isdivided into two (or more) output signals of lesser power, while a power combiner acceptstwo or more input signals and combines them at an output port. The coupler or divider mayhave three ports, four ports, or more, and may be (ideally) lossless. Three-port networks takethe form of T-junctions and other power dividers, while four-port networks take the form ofdirectional couplers and hybrids. Power dividers usually provide in-phase output signals withan equal power division ratio (3 dB), but unequal power division ratios are also possible. Directional couplers can be designed for arbitrary power division, while hybrid junctions usuallyhave equal power division. Hybrid junctions have either a 90 or a 180 phase shift between the output ports
+Power dividers and directional couplers are passive microwave components used to split or combine RF power. In power division, one input signal is divided into two or more outputs, while in power combining, multiple inputs are merged into one output. These devices can have three or more ports and are often designed to be lossless.
+
+Three-port devices (e.g., T-junctions) act as power dividers.
+
+Four-port devices (e.g., directional couplers, hybrids) can split or combine signals with controlled phase and amplitude.
+Power dividers typically provide equal, in-phase outputs (3 dB split), though unequal splits are possible. Directional couplers allow arbitrary power division, while hybrid junctions provide equal power division with a 90° or 180° phase difference between outputs.
+
+# Power-Divider Simulation using ADS
+Here, a power divider operating in W-band was developed
