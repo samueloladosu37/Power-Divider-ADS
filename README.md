@@ -15,7 +15,7 @@ S11 / S22 / S33 vary from about −18 to −10 dB (getting worse at high freq) �
 
 S32 (isolation) moves from about −20 dB at 75 GHz to ≈ −6 dB at 110 GHz → isolation becomes poor at higher frequencies.
 
-![3D Model- 4 membranes](https://github.com/samueloladosu37/PMUT-FEM-Simulation-using-COMSOL/blob/main/3D%20Model%201.png)
+![3D Model- 4 membranes](https://github.com/samueloladosu37/Power-Divider-ADS/blob/main/Capture%20d'%C3%A9cran%202025-10-15%20154632.png)
 
 ![3D Model- 4 membranes](https://github.com/samueloladosu37/PMUT-FEM-Simulation-using-COMSOL/blob/main/3D%20Model%201.png)
 
