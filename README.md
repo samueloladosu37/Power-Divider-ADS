@@ -14,10 +14,10 @@ S21 / S31 ≈ −3.3 to −3.8 dB across 75–110 GHz → close to expected. Thi
 S11 / S22 / S33 vary from about −18 to −10 dB (getting worse at high freq) → matching is acceptable at lower end but degrades; not as good as ideal.
 
 S32 (isolation) moves from about −20 dB at 75 GHz to ≈ −6 dB at 110 GHz → isolation becomes poor at higher frequencies.
-
-![3D Model- 4 membranes](https://github.com/samueloladosu37/Power-Divider-ADS/blob/main/Capture%20d'%C3%A9cran%202025-10-15%20154632.png)
-
-![3D Model- 4 membranes](https://github.com/samueloladosu37/PMUT-FEM-Simulation-using-COMSOL/blob/main/3D%20Model%201.png)
+## Circuit Design
+![Circuit Design](https://github.com/samueloladosu37/Power-Divider-ADS/blob/main/Capture%20d'%C3%A9cran%202025-10-15%20154632.png)
+## Simulation result
+![Result](https://github.com/samueloladosu37/Power-Divider-ADS/blob/main/Capture%20d'%C3%A9cran%202025-10-15%20154842.png)
 
 # Does this behave like a Wilkinson power divider?
 
