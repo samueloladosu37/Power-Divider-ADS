@@ -9,3 +9,16 @@ Power dividers typically provide equal, in-phase outputs (3 dB split), though un
 
 # Power-Divider Simulation using ADS
 Here, a power divider operating in W-band was developed
+S21 / S31 ≈ −3.3 to −3.8 dB across 75–110 GHz → close to expected. This indicates the divider is splitting power roughly equally with modest excess loss (reasonable).
+
+S11 / S22 / S33 vary from about −18 to −10 dB (getting worse at high freq) → matching is acceptable at lower end but degrades; not as good as ideal.
+
+S32 (isolation) moves from about −20 dB at 75 GHz to ≈ −6 dB at 110 GHz → isolation becomes poor at higher frequencies.
+
+# Does this behave like a Wilkinson power divider?
+
+- **Insertion loss (S21, S31):** ~−3.3 to −3.8 dB → close to the expected −3.01 dB for an equal split (small excess loss present).
+- **Return loss (S11, S22, S33):** ~−18 to −10 dB → acceptable near low end but degrades at higher frequencies.
+- **Isolation (S32/S23):** degrades from ~−20 dB at 75 GHz to ~−6 dB at 110 GHz → poor isolation at the high end.
+
+**Conclusion:** The device performs like a Wilkinson near its design frequency (reasonable split and modest loss), but matching and isolation degrade across the plotted 75–110 GHz band. 
