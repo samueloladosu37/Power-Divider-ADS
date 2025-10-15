@@ -1,5 +1,5 @@
 # Power-Divider-ADS
-W-band Power Diver
+W-band Power Divider
 Power dividers and directional couplers are passive microwave components used to split or combine RF power. In power division, one input signal is divided into two or more outputs, while in power combining, multiple inputs are merged into one output. These devices can have three or more ports and are often designed to be lossless.
 
 Three-port devices (e.g., T-junctions) act as power dividers.
@@ -14,6 +14,10 @@ S21 / S31 ≈ −3.3 to −3.8 dB across 75–110 GHz → close to expected. Thi
 S11 / S22 / S33 vary from about −18 to −10 dB (getting worse at high freq) → matching is acceptable at lower end but degrades; not as good as ideal.
 
 S32 (isolation) moves from about −20 dB at 75 GHz to ≈ −6 dB at 110 GHz → isolation becomes poor at higher frequencies.
+
+![3D Model- 4 membranes](https://github.com/samueloladosu37/PMUT-FEM-Simulation-using-COMSOL/blob/main/3D%20Model%201.png)
+
+![3D Model- 4 membranes](https://github.com/samueloladosu37/PMUT-FEM-Simulation-using-COMSOL/blob/main/3D%20Model%201.png)
 
 # Does this behave like a Wilkinson power divider?
 
